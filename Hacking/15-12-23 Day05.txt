@@ -1,0 +1,21 @@
+Commands to crack hash value:
+=============================
+1. sudo john
+2. sudo john -help
+3. sudo john -list = formats
+	--> Know the hash type using hash identifier
+	--> Search wheather the hash type format exists for your hash type
+4. sudo nano hashPassword.txt
+	--> Paste the hash value into this file then save and exit.
+5. sudo john --format= Raw-MD5 /home/kalinali/hashPassword.txt
+	--> Raw-MD5 is the format name available in john for MD5 type hash
+6. locate john.pot
+
+
+Commands to find the Hash type:
+===============================
+1. hash-identifier
+2. Paste hash value
+
+Hacking system by creating malware:
+===================================

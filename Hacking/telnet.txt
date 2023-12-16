@@ -1,0 +1,60 @@
+Services:
+=========
+
+1. Open cmd, type telnet and click enter
+2. We will be into the telnet (if telnet is not supported, then turn windows feature for telnet.)
+3. In order to connect: type o and click enter (For more info type help)
+	( to ) ___________
+4. Type victim's IP address, whose telnet service is running
+5. Enter login details: (try entering defaults or guessed credentials or do brootforce attack)
+6. If login success then you are IN the system.
+	- check username
+	- check user previlages
+	- if you are root user then create a new user
+	- install spyware
+	- try ifconfig
+	- anything
+7. track this user services again in Angry IP Scanner
+8. If this user network has these services running in different system then try connecting them:
+	192.168.8.1	port 139, 445, 3389		
+	192.168.8.5	port 23	
+	192.168.8.6	port 80
+	192.168.8.14	port 21, 22, 23, 80, 139, 445 - connecting this by FTP(21)
+	192.168.8.100	port 139, 445, 3389
+	192.168.8.136	port 22	
+
+	For port 21(FTP service) we can use client(WinSCP application) or command prompt
+		WinSCP(client):
+			used to work on servers to upload and download files we use WinSCP as an client using GUI
+			super easy to use
+			two side by side system are shown
+			create a new session - select FTP as File protocol
+			Type victim IP address 192.168.8.14 in Host name and select the port 21
+			Username: msfadmin/root, Password: defaults/guessed/brootforce
+			can check wheather firewall is present or NOT by typing many wrong passwords.
+			after login:
+				uploading files into the server(this is IP is of server running by LINUX kernal)
+				update other services by downloading latest service version in our local system and copy paste to the right side window that is server
+				sir updating zimra(email server) - downlaod - copy - paste(uploading)
+
+		cmd: we need to type the commands
+			Open cmd
+			type ftp click enter - you are IN ftp
+			type o click enter - to connect
+				To 192.168.8.14 (type victim address)
+			after connecting.
+			type username: msfadmin/root
+			type password: msfadmin (defaults/guessed/brootforce)
+			after login:
+				type help
+				see the commands available
+				using put command to upload again.
+				type mkdir
+				Directory name CDAC 
+
+9. find the services and gain control by default username and passwords.
+	
+			
+		
+
+

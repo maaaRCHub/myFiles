@@ -1,0 +1,8 @@
+
+Live server: (ubuntu server)
+=============
+
+
+1. Using PuTTY - helps to connect to the remote services (Not an attacking tool)
+
+

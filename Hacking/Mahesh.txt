@@ -1,0 +1,6 @@
+https://github.com/rapid7/vm-automation.git
+
+IP:	192.168.6.173
+Ping:	14 ms
+Hostname:	PI2M03089PAU02528.local
+Ports:	80

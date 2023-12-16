@@ -1,0 +1,70 @@
+
+IP: 54.221.143.148
+====================
+
+1.  Address: 39°02'48.8"N 77°29'25.1"W  - Ashburn, VA, USA
+    Continent		: North America
+    Country by IP	: United States
+    City by IP 		: Ashburn
+    State / Region 	: Virginia
+    District / County 	: Loudoun
+    Zip code 		: 20149
+    Latitude 		: 39.0438
+    Longitude 		: -77.4874
+    Accuracy:		: ~50.000 meters
+
+2.  ISP: Amazon Data Services NoVa
+3.  ORGANIZATION: AS14618 Amazon.com, Inc.
+
+4.  From Angry IP Scanner --> NO DATA
+5.  https://www.yougetsignal.com/tools/open-ports/
+    Port 80	--> Open   (HTTP)
+    Port 443	--> open   (HTTPS)
+    Port 22	--> closed (SSH/SCP)
+    Port 53	--> closed (DNS)
+    Port 587	--> closed (SMTP)
+
+Open Port 21 is closed on 54.221.143.148.
+Open Port 22 is closed on 54.221.143.148.
+Open Port 23 is closed on 54.221.143.148.
+Open Port 25 is closed on 54.221.143.148.
+Open Port 53 is closed on 54.221.143.148.
+Open Port 80 is open on 54.221.143.148.		(HTTP)
+Open Port 110 is closed on 54.221.143.148.
+Open Port 115 is closed on 54.221.143.148.
+Open Port 135 is closed on 54.221.143.148.
+Open Port 139 is closed on 54.221.143.148.
+Open Port 143 is closed on 54.221.143.148.
+Open Port 194 is closed on 54.221.143.148.
+Open Port 443 is open on 54.221.143.148.	(SSL)
+Open Port 445 is closed on 54.221.143.148.
+Open Port 1433 is closed on 54.221.143.148.
+Open Port 3306 is closed on 54.221.143.148.
+Open Port 3389 is open on 54.221.143.148.	(Remote Desktop)
+Open Port 5632 is closed on 54.221.143.148.
+Open Port 5900 is closed on 54.221.143.148.
+Open Port 6112 is closed on 54.221.143.148.
+
+
+To Attack system or any network:
+================================
+1. Discover inside the network:
+	--> In order to discover first we need to scan the network.
+	--> Two ways to scan:
+		1. Scanning the IP Services
+			- using "Angry IP Scanner" application for aggresive scanning.
+			- This ports are added in preferences/ports/ (Not menadatory)
+				80,443,8080,139,3389,21,23,22,1883,445
+
+			- Total time: 19.71 sec
+			- Average time per host: 0.08 sec
+			- IP Range: 54.221.143.1 - 54.221.143.254
+			- Hosts scanned: 254
+			- Hosts alive: 0
+
+		2. hjghhjb
+ 
+
+	
+	
+
