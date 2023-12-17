@@ -2,7 +2,7 @@ Commands to crack hash value:
 =============================
 1. sudo john
 2. sudo john -help
-3. sudo john -list = formats
+3. sudo john -list=formats
 	--> Know the hash type using hash identifier
 	--> Search wheather the hash type format exists for your hash type
 4. sudo nano hashPassword.txt
