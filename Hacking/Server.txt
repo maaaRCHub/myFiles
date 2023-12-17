@@ -1,0 +1,46 @@
+Server
+=========
+method 1:
+=========
+1. Use ssl scan to scan server in kali
+	sudo sslscan 192.168.8.14
+	
+	if not working try 
+	sudo sslscan www.cdac.in 443	(443 is port number)
+
+2. Now checking the valurabilties of the service running.
+	Example: 
+	80/tcp   open   http         Apache 2.4.48 ((Win64) 
+	checking valurabilty for Apache 2.4.48
+
+   Looking for other services which have vanerability.
+	2121/tcp open	ftp	ProFTPD 1.3.1
+
+
+
+
+
+
+
+
+
+
+method 2:
+=========
+2. Checking another
+
+
+If Exploits not available in Metasploit can be added from www.exploit-db.com
+===================================================================
+1. search the valurability (www.exploit-db.com)
+2. choose the exploit
+3. open
+4. copy the code / download the file
+5. open kali terminal
+6. change the path:
+	cd /usr/share/metasploit-framework/modules/exploits
+7. open vi editor / move the downloaded file
+	sudo vi example.rb
+8. paste the code and save
+	:wq!
+9. rerun metasploit
