@@ -1,0 +1,52 @@
+
+19/12/2023
+==========
+
+1. 80% of the websites are deployed in WordPress
+2. 
+
+
+Ubuntu
+AWS - Host a website
+
+	Apache
+	Linux 
+	Ubuntu 
+
+sudo service ssh
+
+sudo service apache2 start | stop | reload
+
+sudo service vsftp start | stop | reload
+
+sudo service apache2 status
+
+nmap -v -A 192.168.84.128
+	-- Port 80 is open
+	-- Open browser and paste 192.168.84.128
+	-- apache server web page appears
+
+sudo service ssh status
+	-- disabled
+
+sudo service ssh start
+
+nmap -v -A 192.168.84.128
+	-- port 80 and 22 is open
+	-- open Putty and enter IP andress and port 22 and connect
+	-- enter user credentials and login
+
+
+=================================================
+
+Download Wordpress: https://wordpress.org/download/
+
+extract the zip file only with winrar
+
+
+
+
+
+
+
+
